@@ -56,7 +56,6 @@ article {
     padding-top: 50px;
     gap: 25px;
   }
-
   h1 {
     font-size: 3em;
     padding: 0px;
@@ -144,6 +143,32 @@ section {
       }
     }
   }
+}
+.about-us{
+    padding-bottom: 60px;
+    h2{
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+    .mision-section{
+        @include flexCenter(row,space-evenly,center);
+        .earth{
+            width: 30vw;
+            display: flex;
+            gap: 40px;
+            color: #e86424;
+            img{
+                object-fit: contain;
+            }
+            p{
+                text-align: center;
+                font-size: $paragraph-size;
+            }
+        }
+    }
+    .innovation{
+        @extend .earth;
+    }
 }
 footer {
   background: $quaternary-color;
