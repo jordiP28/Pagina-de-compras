@@ -105,8 +105,8 @@ section .healthcare .card-section, section .furniture .card-section {
   row-gap: 80px;
 }
 section .healthcare .card-section .product-card, section .furniture .card-section .product-card {
-  width: 14vw;
-  height: 47vh;
+  width: 20vw;
+  height: 57vh;
   background-color: #ffdac6;
   color: #7c6a0a;
   padding: 20px;
@@ -136,6 +136,9 @@ section .healthcare .card-section .product-card img, section .furniture .card-se
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 6px;
+}
+section .healthcare .card-section .product-card p, section .furniture .card-section .product-card p {
+  overflow: hidden;
 }
 section .furniture .card-section .product-card {
   background-color: #babd8d;
